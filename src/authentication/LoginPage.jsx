@@ -32,8 +32,8 @@ function LoginPage() {
     const { googleSignIn, login, logout } = useUserAuth();
     const navigate = useNavigate()
     const [userInput, setUserInput] = useState({
-        Email: '',
-        Password: '',
+        Email: 'sameer@gmail.com',
+        Password: 'sameer@123',
     })
     const handleChange = (propertyName) => (event) => {
         setUserInput((userInput) => ({
@@ -198,7 +198,8 @@ function LoginPage() {
                                         name="login_user"
                                         className="login_form"
                                         initialValues={{
-                                            remember: true,
+                                            "Email" : userInput.Email,
+                                            "pasword" : userInput.Password
                                         }}
                                         onFinish={onFinish}
                                         onFinishFailed={onFinishFailed}
@@ -215,10 +216,11 @@ function LoginPage() {
                                                         },
 
                                                     ]}
+                                                
                                                 >
                                                     <Input
                                                         placeholder="EmailId"
-                                                        value={userInput.Number}
+                                                        value={userInput.Email}
                                                         onChange={handleChange("Email")}
 
                                                     />
