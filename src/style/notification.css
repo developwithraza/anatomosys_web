@@ -1,0 +1,30 @@
+.notification_title{
+    margin-top: 1rem;
+    background-color: var(--anastomosys_primary);
+    width: 80%;
+    clip-path: polygon(100% 0, 98% 50%, 98% 50%, 100% 100%, 0 100%, 0 51%, 0 0);
+
+}
+.notification{
+    margin-top: 1rem;
+}
+.notification_title p{
+    padding: .5rem 3rem;
+    margin-bottom: 0;
+    color: white;
+}
+.notification_section{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.notification_list{
+    display: flex;
+    align-items: center;
+}
+.notification_data{
+    padding-left: .5rem;
+}
+.notify{
+    color: rgb(173, 169, 169);
+}

@@ -1,0 +1,266 @@
+.navbar_header {
+  background-color: var(--anastomosys_primary);
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+.search_option {
+  background-color: var(--anastomosys_secondary);
+  position: absolute;
+  width: 30%;
+  top: -30%;
+  left: 13%;
+  border-radius: 6px;
+  -webkit-box-shadow: 2px 3px 15px -1px #000000;
+  box-shadow: 2px 3px 15px -1px #000000;
+}
+.search_info a {
+  text-decoration: none;
+}
+.ant-list-item-meta-title {
+  color: var(--anastomosys_primary);
+}
+.nav_left_side {
+  padding-left: 0.5rme;
+  height: 100%;
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+}
+.nav_logo img {
+  width: 80%;
+  cursor: pointer;
+}
+.navbar_tabs {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  align-items: center;
+}
+
+.navbar_tabs a.active::before {
+  position: absolute;
+  content: "";
+  width: 4rem;
+  height: 3px;
+  background-color: var(--anastomosys_musted);
+  bottom: -23%;
+}
+.navbar_item {
+  width: 100%;
+}
+.navbar_tabs a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  position: relative;
+  text-decoration: none;
+  color: white;
+  padding-right: 1.5rem;
+}
+
+.navbar_tabs a.active {
+  color: var(--anastomosys_musted_active);
+}
+.tabs_icon p {
+  color: white;
+  font-size: 1rem;
+}
+.tabs_icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.8rem;
+}
+
+.menu_icon {
+  /* color: white; */
+  font-size: 1.2rem;
+}
+.search_input {
+  background-color: var(--anastomosys_secondary);
+  border-radius: 0.5rem;
+
+}
+.search_input .ant-input::placeholder {
+  color: black;
+}
+.search_input .ant-input {
+  width: 15vw;
+}
+
+.user_menu img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+.search_option {
+  margin-top: 5rem;
+}
+.user_menu {
+  display: flex;
+  margin-top: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dropdown-toggle::after {
+  visibility: hidden;
+}
+#dropdown-basic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.btn.show {
+  background-color: transparent;
+}
+.dropdown {
+  background-color: transparent;
+  /* height: 3rem; */
+}
+
+.dropdown button {
+  background-color: transparent;
+  border-style: none;
+}
+.user_menu p {
+  color: white;
+  margin-top: -0.6rem;
+  padding-bottom: 0.8rem;
+}
+#dropdown-basic .btn:hover {
+  background-color: transparent;
+}
+#dropdown-basic:hover {
+  background-color: transparent;
+}
+.dropdown-menu.show {
+  background-color: var(--anastomosys_primary);
+  position: relative;
+  width: 15rem;
+  margin-top: -1.7rem;
+}
+.dropdown-menu.show ul {
+  margin-top: 3rem;
+}
+.dropdown-menu.show a {
+  color: white;
+}
+.dropdown-menu.show::after {
+  content: "";
+  clip-path: polygon(
+    20% 0%,
+    80% 0%,
+    100% 0,
+    100% 44%,
+    100% 37%,
+    33% 23%,
+    0 33%,
+    0 0
+  );
+
+  background-color: rgb(211, 240, 250);
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+}
+.tab_profile_img img {
+  width: 5rem;
+  height: 5rem;
+  margin-top: -0.5rem;
+  border-radius: 50%;
+}
+.tab_profile_img {
+  z-index: 1;
+  padding: 1.5rem 1.5rem;
+}
+.menu_user_name {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.user_name {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 90%;
+  padding: 0 1rem;
+  height: 3rem;
+  background-color: white;
+}
+.user_name p:first-child {
+  color: var(--anastomosys_primary);
+}
+#profetion {
+  color: var(--anastomosys_musted);
+  margin-top: -0.5rem;
+}
+.user_name p {
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  padding-left: 0.5rem;
+  text-transform: capitalize;
+}
+.more_circles {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  background-color: var(--anastomosys_primary);
+  z-index: 1;
+  margin-right: -1.2rem;
+}
+.view_user_profiles {
+  display: flex;
+  justify-content: end;
+}
+.view_user_profiles p {
+  color: var(--anastomosys_musted);
+}
+.dropDown_options a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: block;
+}
+.menu_item_icon {
+  margin-right: 1rem;
+}
+.view_user_profiles a {
+  text-decoration: none;
+}
+.view_user_profiles a:hover {
+  background-color: var(--anastomosys_primary);
+}
+#view_Profile a {
+  margin-left: 8rem;
+  color: var(--anastomosys_musted);
+}
+#view_Profile a:hover {
+  color: white;
+  text-align: center;
+}
+.dropDown_options a:hover {
+  background-color: var(--anastomosys_musted);
+}
+#userVerifyIcon {
+  color: var(--anastomosys_musted);
+  font-size: 1.2rem;
+}
+.not_found {
+  min-height: calc(100vh - 65px);
+}

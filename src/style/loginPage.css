@@ -1,0 +1,81 @@
+.illustration_imgs img{
+    width: 100%;
+
+}
+.login_section{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 75vh;
+    flex-direction: column;
+}
+.login_fields{
+   padding: 0 2rem;
+}
+.login_btn{
+    text-align: center;
+
+}
+.login_btn .login_form_button{
+    width: 12rem;
+    background-color: var(--anastomosys_primary);
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    height: auto;
+
+}
+.login_btn .sign_form_button{
+    width: 12rem;
+    border: 1px solid var(--anastomosys_primary);
+    color: var(--anastomosys_primary);
+    font-weight: 600;
+    font-size: 1rem;
+    height: auto;
+    
+}
+.login_btn .sign_form_button:hover{
+    color: var(--anastomosys_musted);
+      
+}
+.login_btn .login_form_button:hover{
+    color: var(--anastomosys_musted);
+}
+.forget_password {
+    display: flex;
+    justify-content: end;
+    margin-top: -1.5rem;
+}
+
+.login_divider{
+    margin-top: -1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divider_left{
+    width: 35%;
+    height: 1px;
+    background-color: var(--anastomosys_primary);
+}
+.divider_right{
+    width: 35%;
+    height: 1px;
+    background-color: var(--anastomosys_primary);
+}
+.login_divider p{
+    padding: 0 1rem;
+    padding-top: .5rem;
+}
+.opton_button{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.other_option button{
+    margin-bottom: .5rem;
+    font-weight: 600;
+}
+.other_option{
+    padding: 0 4rem;
+}

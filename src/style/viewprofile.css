@@ -1,0 +1,458 @@
+
+.view_profile .card{
+    border-color: var(--anastomosys_primary);
+}
+.view_user_profile{
+    position: absolute;
+    top: 20%;
+    left:5%;
+}
+.view_user_profile img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    border:3px solid white;
+    z-index: 1;
+}
+.view_profile{
+    /* margin-top: 1rem; */
+    padding-bottom: 1rem;
+}
+.main_feed{
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
+.cover_user_img{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.update_cover_image{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+.cover_user_img img{
+    width: 100%;
+    height: 30vh;
+    object-fit: fill;
+    border-radius: 8px 8px 0 0;
+}
+.user_review_details{
+    width: 100%;
+}
+.user_titles{
+    margin-top: 3rem;
+    position: relative;
+}
+.update_user_prifile{
+    position: absolute;
+    top:14rem;
+    right: 5%;
+}
+.user_education{
+    margin-top: 1rem;
+}
+
+.user_titles h2{
+    text-transform: capitalize;
+    color: var(--anastomosys_primary);
+    font-size: 1rem;
+    font-weight: 600;
+}
+.user_titles h4{
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.user_titles p{
+    color: rgb(167, 158, 158);
+    font-size: 1rem;
+}
+.view_follower{
+    display: flex;
+    justify-content: start;
+}
+.recent_post{
+    width: 100%;
+
+}
+.recent_post img{
+    width: 80%;
+}
+.recent_post_header {
+    width: 100%;
+}
+.recent_post h4, p{
+    color: black;
+}
+.resreach_publication{
+    margin-top: 1rem;
+}
+.user_item_img img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 1px solid var(--anastomosys_musted);
+}
+.suggest_user_heading{
+    background-color: var(--anastomosys_primary);
+    border-radius: 6px 6px 0 0;
+    display: flex;
+    align-items: center;
+    padding: .5rem 1rem ;
+    margin-bottom: .5rem;
+}
+.suggest_user_heading p{
+    color: white;
+}
+.suggest_user_items a{
+    text-decoration: none;
+
+}
+.recent_post_infos{
+    background-color: rgb(250, 248, 248);
+    margin-top: .5rem;
+}
+.trending_users{
+    display: flex;
+    padding: 0 .5rem;
+}
+.suggest_user_items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.suggest_user_item{
+    width: 100%;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.suggest_user_heading h2{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.user_item_info{
+    padding-left: .5rem;
+}
+.user_item_info p{
+        font-size: 1rem;
+      
+    }
+    
+
+.heading {
+    background-color: var(--anastomosys_primary);
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading h2{
+    font-size: 1.2rem;
+    color: white;
+    padding: .5rem;
+}
+.heading p{
+    padding-right: 1rem;
+}
+.research_public_icons{
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-bottom: .2rem;
+}
+.publication_content h2{
+    font-size: 1.2rem;
+    color: var(--anastomosys_musted);
+}
+.publication_content{
+    padding: .5rem;
+}
+.total_review_section{
+    display: flex;
+    width: 100%;
+
+}
+.total_review_circle{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: -.6rem;
+}
+.total_review{
+    background-color: lightgray;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 2rem;
+}
+.view_all_Details{
+    color: var(--anastomosys_primary);
+}
+.view_all{
+    display: flex;
+    justify-content: end;
+    padding: .5rem;
+}
+.view_all button{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: black;
+}
+.work_experience{
+    margin-top: 1rem;
+}
+.experience_item{
+    display: flex;
+    padding: 1rem 2rem;
+}
+.company_logo img{
+    width: 5rem;
+    height: 5rem;
+    border: 1px solid var(--anastomosys_musted);
+    padding: .5rem;
+}
+.company_info{
+    padding-left: 1rem;
+}
+.company_info h2{
+    font-size: 1.2rem;
+
+}
+.company_info p{
+    margin-bottom: 0;
+    margin-top: .2rem;
+}
+
+.suggest_user_view_all{
+    display: flex;
+    width: 100%;
+    padding-bottom: 1rem;
+}
+.suggest_all_View{
+    width: 60%;
+    height: 2rem;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* .suggest_users{
+    top: 5rem;
+    position: sticky;
+
+} */
+.suggest_user {
+    position: sticky;
+    top : 5rem;
+    padding-bottom: 1rem;
+}
+.suggest_user_view_circle{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: -1rem;
+}
+
+.heading_action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-header{
+    border-style: none;
+}
+ .modal-header:after{
+    content: "";
+    width:85%;
+    height: 10%;
+    position: absolute;
+    top: 5%;
+    left: 0;
+    background-color: var(--anastomosys_primary);
+    z-index: 1;
+    clip-path: polygon(100% 0, 98% 49%, 98% 50%, 100% 100%, 0 100%, 0 20%, 0 0);
+
+}
+.modal-title{
+    z-index: 2;
+    color: white;
+}
+.research_public_Action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.research_public_Action button{
+    color: white;
+}
+.research_public_Action p{
+    margin-bottom: 0;
+}
+.experience_action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.experience_action p{
+    margin-bottom: 0;
+}
+.education_action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.education_action p{
+    margin-bottom: 0;
+}
+.edit_Cover_img{
+    color: white;
+    height: 2rem;
+    width: 2rem;
+    background-color: var(--anastomosys_musted);
+    border-radius: 50%;
+    padding: .5rem;
+    cursor: pointer;
+    
+}
+.user_Dob{
+    width: 100%;
+}
+.userUpdateBtn{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.userUpdateBtn button{
+    margin-right: .5rem;
+}
+.updateuserImg{
+    position: absolute;
+    top: 12rem;
+    left: 20%;
+}
+
+.updateImgBtn{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+.updateImgBtn button{
+    margin-right: .5rem;
+}
+.Update_Professional_Details{
+    position: absolute;
+    top: 23rem;
+    right: 5%;
+}
+.departmentData p:first-child{
+    font-weight: 600;
+}
+.company_info p{
+    color: gray;
+}
+.my_Skills{
+    display: inline-block;
+}
+.experience_head,.myEduction_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.exp_delete{
+    color: red;
+    margin-right: .3rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.skill_delete{
+    color:red;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.edit_education_icon{
+    color: green;
+    margin-right: .5rem;
+}
+
+ #add_myResearch .ant-picker{
+    width: 100%;
+}
+.model_foots{
+    display: flex;
+    justify-content: end;
+}
+.company_info{
+    width: 100%;
+}
+.my_skills{
+    display: inline-block;
+    position: relative;
+}
+.skill_remove_icon{
+    position: absolute;
+    top: -5%;
+    right: 2%;
+}
+a .recent_post_title {
+    background-color: var(--anastomosys_musted);
+    margin-top: .5rem;
+}
+a .recent_post_title p{
+    padding: .2rem .5rem;
+    font-weight: 600;
+
+}
+.trending_post{
+    position: sticky;
+    top: 5rem;
+}
+.recent_post_infos .card{
+    border-color: #eeee;
+}
+/* .trending_post .card{
+    border-color: var(--anastomosys_primary);
+} */
+.recent_post_info .card{
+    border-color: var(--anastomosys_primary);
+}
+.trending_post .card a{
+    text-decoration: none;
+}
+.terending_post_heading{
+    background-color: var(--anastomosys_primary);
+    border-radius: 4px 4px 0 0 ;
+    margin-bottom: 1rem;
+}
+.specielist{
+    color: var(--anastomosys_primary);
+}
+.terending_post_heading p{
+    padding: .5rem;
+    color: white;
+    font-weight: 500;
+}
+.trenading_post_item{
+    margin-top: .5rem;
+    display: flex;
+    padding:0 .5rem;
+}
+.trendingPost_post{
+   padding: 0 .5rem;
+}
+.content-csss{
+    color: black;
+}
+#add_experience .row {
+    --bs-gutter-x: .5rem;
+}

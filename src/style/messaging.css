@@ -1,0 +1,338 @@
+.messagining_user_img img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: 1px solid var(--anastomosys_musted);
+}
+.messaging_pannel {
+  min-height: calc(100vh - 80px);
+}
+.messaging_list {
+  display: flex;
+  align-items: center;
+}
+.messaging_section {
+  /* background-color: rgb(154, 200, 252); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0.5rem;
+  /* border-radius: 6px; */
+  margin-bottom: .1rem;
+}
+.user_message {
+  background-color: transparent;
+}
+.chat_option_icon{
+  font-size: 1rem;
+}
+.message_data p {
+  margin-bottom: 0;
+  text-transform: capitalize;
+}
+.message_data p:first-child{
+  color: var(--anastomosys_primary);
+}
+.messageing {
+  /* margin-top: 1rem; */
+  padding: 0.5rem 0;
+}
+.message_info_option p{
+  font-size: .8rem;
+}
+.messaging_pannel {
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+.message_grid {
+  position: relative;
+  background-color: rgb(243, 241, 241);
+  padding-top: 1rem;
+  width: 100%;
+  border-radius: 6px 0 0 0;
+}
+.actives{
+  background-color: var(--anastomosys_musted);
+}
+.message_data {
+  padding-left: 0.5rem;
+}
+.messageing {
+  width: 100%;
+}
+.messasings .card {
+  padding-bottom: 1rem;
+  border-color: var(--anastomosys_primary);
+}
+
+.user_message .ant-divider-horizontal {
+  margin: 10px 0;
+}
+.user_message:hover {
+  background-color: whitesmoke;
+
+  cursor: pointer;
+}
+.active_now{
+  background-color: #dbd5d5;
+  border-left: 2px var(--anastomosys_primary) solid;
+  
+}
+.react-input-emoji--input {
+  max-height: 500px  !important;
+}
+
+.user_message a {
+  text-decoration: none;
+}
+.rejectMsg {
+  color: var(--anastomosys_musted);
+}
+.acceptMsg {
+  color: var(--anastomosys_primary);
+}
+#message_diveide {
+  /* background-color: rgb(248, 246, 246); */
+}
+.messagin_heading {
+  width: 80%;
+  background-color: var(--anastomosys_primary);
+  clip-path: polygon(100% 0, 98% 50%, 98% 50%, 100% 100%, 0 100%, 0 51%, 0 0);
+}
+.messagin_heading p {
+  color: white;
+  padding: 0.5rem 2rem;
+}
+.ScrollbarsCustom-Thumb .ScrollbarsCustom-ThumbX {
+  display: none;
+}
+.messaging_user_lists {
+  display: flex;
+}
+.chating_heading {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  padding: 1rem 0;
+}
+.chat_user_Icon{
+  color: var(--anastomosys_primary);
+  margin-right: .5rem;
+  font-size: 1.2rem;
+}
+.chating_heading p{
+  color: var(--anastomosys_primary);
+  font-weight: 600;
+}
+.chat_section_devider {
+  margin-top: -1rem;
+  background-color: var(--anastomosys_musted);
+  height: 2px;
+}
+.chating_section {
+  padding: 0.5rem 1rem;
+}
+.store_message {
+  padding: 0.5 2rem;
+  display: inline;
+  width: 100%;
+}
+.create_message .ant-input {
+  border-color: var(--anastomosys_musted);
+}
+.message_actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+.message_send_btn button {
+  background-color: var(--anastomosys_musted);
+  border-style: none;
+  color: white;
+}
+.message_send_btn button:hover {
+  border-style: none;
+  color: var(--anastomosys_musted);
+}
+.create_message_section {
+  padding: 0 2rem;
+}
+.message_input_divider_item {
+  width: 6rem;
+  height: 2px;
+  background-color: var(--anastomosys_primary);
+}
+.message_input_divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+}
+.recevied_message_img img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  /* border: 1px solid var(--anastomosys_musted); */
+}
+
+.recevied_message {
+  width: fit-content;
+  padding: 0.2rem;
+  margin: 0.5rem 0;
+  margin-right: 10rem;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0.8rem;
+  background-color: rgb(236, 234, 234);
+  border-left: 1px var(--anastomosys_musted) solid;
+  animation: message 1s ease 0s 1 normal forwards;
+}
+@keyframes message {
+	0% {
+		opacity: 0;
+		transform: translateY(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+.send_message p,
+.recevied_message p {
+  margin-bottom: 0;
+}
+.send_message {
+  width: fit-content;
+  margin-bottom: 0.5rem;
+  margin-left: 10rem;
+  padding: 0.2rem;
+  margin-right: 1rem;
+  display: flex;
+  /* justify-content: space-between; */
+  background-color: rgb(236, 234, 234);
+  border-radius: 0.8rem ;
+  border-right: 1px solid var(--anastomosys_primary);
+  animation: myAnim 1s ease 0s 1 normal forwards;
+}
+.mute_icons{
+  color: var(--anastomosys_primary);
+}
+.searching_chat_room{
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  /* height: 4rem; */
+  background-color: var(--anastomosys_secondary);
+  border-radius: 6px;
+  -webkit-box-shadow: 2px 3px 15px -1px #000000;
+  box-shadow: 2px 3px 15px -1px #000000;
+}
+
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: translateY(50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+.message_user_info video {
+  width: 100%;
+}
+.send_message_img img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+.message_user_info {
+  margin-left: 0.5rem;
+  word-break: break-word;
+  padding-right: 0.5rem;
+}
+.message_user_info p:first-child {
+  font-weight: 600;
+}
+.message_searching {
+  padding: 0.5rem;
+}
+.message_searching button {
+  color: var(--anastomosys_musted);
+}
+.message_information {
+  display: flex;
+}
+.message_info_option {
+  display: flex;
+}
+.last_message_day {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.last_message_day .ant-space-item {
+  transform: rotate(45deg);
+}
+.last_message_day p{
+  font-size: .8rem;
+}
+.message_chat_btn {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.video_msg_Upload {
+  display: flex;
+  margin-right: 0.5rem;
+}
+.message_image input,
+.message_vedio input {
+  visibility: hidden;
+}
+.create_message .ant-form input[type="file"] {
+  display: none;
+}
+.post_image_message img {
+  width: 20%;
+}
+.post_image_message video {
+  width: 40%;
+}
+.post_image_message {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+.message_user_info img {
+  width: 100%;
+}
+.chating_user_info{
+  display: flex;
+  align-items: center;
+  margin-bottom: .5rem;
+}
+.chating_user_info img{
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin-right: .5rem;
+}
+#emoji_picker{
+  animation: emoji 3s ease 0s 1 normal forwards;
+}
+@keyframes emoji {
+	0% {
+		opacity: 0;
+		transform: translateX(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}

@@ -1,0 +1,151 @@
+
+.right_Side_Bar{
+    position: sticky;
+    top: 5rem;
+}
+.profile_card .card{
+    border-color: var(--anastomosys_primary);
+}
+.news{
+    display: flex;
+    /* padding: .5rem; */
+
+}
+.news :first-child{
+    color: var(--anastomosys_musted);
+    margin-right: .2rem;
+}
+.news p{
+    margin-bottom: 0;
+    margin-top: .5rem;
+    color: black;
+    font-size: .8rem;
+}
+.titles{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 10vh;
+    clip-path: polygon(0 0, 100% 24%, 100% 78%, 0% 100%);
+    background-color: var(--anastomosys_primary);
+    margin-top: 1rem;
+}
+.titles p{
+    color: white;
+    margin-bottom: 0;
+}
+.titles p{
+    /* margin-top: 1rem; */
+    padding-left: .5rem;
+}
+.more_View_section{
+    width: 100%;
+    display: flex;
+    padding: 1rem 0;
+}
+.more_view{
+    background-color: lightgray;
+    height: 1.5rem;
+    width: 90%;
+    text-align: center;
+
+}
+.coadiology{
+    background-color: lightgray;
+    height: 1.5rem;
+    width: 70%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.coadiology p,.orthology p,.neurology p{
+   margin-bottom: 0;
+}
+.orthology{
+    background-color: lightgray;
+    height: 1.5rem;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.neurology{
+    background-color: lightgray;
+    height: 1.5rem;
+    width: 70%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.more_view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.more_view p{
+    color: black;
+}
+.more_circle{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: -.5rem;
+}
+.more_View_sections{
+    width: 100%;
+    display: flex;
+    padding: 1rem 0;
+}
+.more_topic{
+    display: flex;
+    justify-content: end;
+}
+.more_topic p{
+    padding-right: 1rem;
+    color: black;
+}
+.current_topic_card{
+    margin-top: 1rem;
+}
+.active_profile_card{
+    margin-top: 1rem;
+}
+.active_profile{
+    display: flex;
+    padding: .5rem;
+    width: 100%;
+    
+}
+.active_Img img{
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid var(--anastomosys_musted);
+    border-radius: 50%;
+}
+.active_info{
+    padding-left: .5rem;
+}
+.active_info p{
+    margin-bottom: 0;
+    font-size: .8rem;
+}
+
+
+.active_info:first-child{
+    color: var(--anastomosys_primary);
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+
+
+.active_follow button p{
+    color: var(--anastomosys_musted);
+}

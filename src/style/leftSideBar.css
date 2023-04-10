@@ -1,0 +1,119 @@
+.left_Side_Bar{
+    position: sticky;
+    top: 5rem;
+}
+.profile_card .card{
+    border-color: var(--anastomosys_primary);
+}
+.user_profile{
+    background-color: var(--anastomosys_primary);
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    position: relative;
+    border-radius: 6px 6px 0 0;
+   
+}
+.user_profile img{
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    position: absolute;
+    bottom: -50%;
+    left: 35%;
+    background-color: var(--anastomosys_secondary);
+    padding: 2px;
+
+}
+.profile_card .card-body{
+    margin-top: 1rem;
+}
+.user_title{
+    text-align: center;
+    padding-top: .5rem;
+}
+.user_title h2{
+    color: var(--anastomosys_primary);
+    font-weight: 600;
+    font-size: 1rem;
+}
+.user_title p:first-child{
+    color: var(--anastomosys_primary);
+    font-weight: 600;
+}
+.user_title p{
+    font-size: 1rem;
+
+}
+.user_specilist{
+    margin-top: -1rem;
+    text-align: center;
+}
+.followers{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.followers button:first-child{
+    color: var(--anastomosys_musted);
+}
+.user_about h4{
+    font-weight: 600;
+    color: black;
+    font-size: 1rem;
+}
+#following{
+    color: var(--anastomosys_primary);
+}
+.user_about{
+    margin-top: 1rem;
+}
+.user_title  h4,h2{
+    margin-bottom: 0;
+}
+.user_about p{
+    font-size: .8rem;
+    color: black;
+}
+.review_profile{
+    display: flex;
+    width: 100%;
+    padding: .5rem;
+}
+.review_Imgs img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: 1px solid var(--anastomosys_musted);
+}
+.review_info{
+    padding-left: .5rem;
+}
+.send_proposal{
+    padding: 0 .5rem;
+    display: flex;
+    justify-content: end;
+}
+.send_proposal button{
+    border-radius: 25px;
+}
+.send_proposal button{
+    color: var(--anastomosys_primary);
+    border-color: var(--anastomosys_primary);
+}
+.more_detail{
+    border-style: none;
+}
+.view_more{
+    color: var(--anastomosys_musted);
+}
+.review_request_card{
+    margin-top: 1rem;
+}
+#spesilist{
+    color: var(--anastomosys_musted);
+}
+.titles .card-title p{
+    font-size: 1rem;
+}

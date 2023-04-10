@@ -1,0 +1,54 @@
+.profile_details_titles{
+    display: flex;
+}
+.login_heading h2{
+    color: var(--anastomosys_primary);
+}
+.login_heading{
+    padding-left: 1rem;
+    line-height: .5rem;
+}
+.user_image_upload{
+    width: 100%;
+    background-color: white;
+    border-radius:8px;
+    text-align: center;
+    height: 2rem;
+}
+.user_image_upload p{
+    width: 100%;
+    margin-top: .2rem;
+    cursor: pointer;
+}
+.review_checker{
+    margin-top: .5rem;
+}
+.profile_mg img{
+    width: 60%;
+}
+.profile_mg{
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    bottom: 0;
+    right: 2%
+}
+.profile_img img{
+    width: 60%;
+}
+.view_follower button:first-child{
+color: var(--anastomosys_musted);
+}
+.profile_img{
+    display: flex;
+    justify-content: end;
+    flex-direction: column ;
+    margin-top: 2rem;
+}
+.fillUserDetals{
+    display: flex;
+    justify-content: center;
+}
+.fillUserDetals button{
+    width: 16rem;
+}

@@ -1,0 +1,187 @@
+.myNetwork{
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
+.myNetwork .card{
+    border-color: var(--anastomosys_primary);
+}
+.my_network_title{
+    margin-top: 1rem;
+    width: 80%;
+  
+    background-color:var(--anastomosys_primary);
+    clip-path: polygon(100% 0, 98% 50%, 98% 50%, 100% 100%, 0 100%, 0 51%, 0 0);
+    
+}
+.my_network_title{
+    display: flex;
+}
+.my_network_title p{
+    padding:  .5rem .2rem;
+    margin-bottom: 0;
+    font-weight: 600;
+    color: white;
+}
+.my_network_title p:first-child{
+    padding-left: .5rem;
+    cursor: pointer;
+}
+.following_people_section{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+.following_people_section:hover{
+   background-color: whitesmoke;
+}
+.following_user_img img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: 1px solid var(--anastomosys_musted);
+}
+.following_user_data{
+    padding-left: .5rem;
+}
+.following_people_list{
+    display: flex;
+}
+.following_user_data p{
+    margin-bottom: 0;
+}
+.following_user_data p:first-child{
+    color: var(--anastomosys_primary);
+    font-weight: 600;
+    font-size: 1rem;
+}
+.unfollowing_btn button{
+    color: var(--anastomosys_musted);
+    border-color: var(--anastomosys_musted);
+    font-weight: 600;
+    margin-right: .2rem;
+}
+/* .unfollowing_btn button:first-child{
+    color: var(--anastomosys_primary);
+    border-color: var(--anastomosys_primary);
+  
+} */
+.following_people{
+    margin-top: .5rem;
+}
+.following_btn button{
+    color: var(--anastomosys_musted);
+    border-color: var(--anastomosys_musted);
+}
+.my_Network{
+    height: 100vh;
+}
+.following_people a{
+    text-decoration: none;
+    padding-right: 1rem;
+}
+.followBtn button{
+  color: var(--anastomosys_musted);  
+  font-size: 1rem;
+}
+.selected_user_following{
+    margin-top: 1rem;
+    height: 100vh;
+
+}
+.load_more_cpmment button{
+    margin-top: .5rem;
+}
+.load_more_cpmment button:hover{
+    background-color: #eee;
+    border-radius: 25px;
+    color: white;
+}
+.selected_user_following .card{
+    border-color: var(--anastomosys_primary);
+    padding-top: 1rem;
+}
+.user_request_info p{
+    margin-bottom: 0;
+}
+.selected_user_following_info{
+    padding-left: .5rem;
+}
+.selected_user_following_info p{
+    margin-bottom: 0;
+}
+.selected_user_following_info p:first-child{
+    color: var(--anastomosys_primary);
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+.ant-pagination-next,.ant-pagination-prev{
+    border: 1px solid lightgray;
+}
+.anticon {
+    font-size: 1.2rem;
+}
+.paginationSection{
+    display: flex;
+    justify-content: end;
+    padding: 1rem;
+}
+.ant-pagination-total-text{
+    color: var(--anastomosys_musted);
+}
+.specilist{
+    color: var(--anastomosys_musted);
+}
+.view_follower a{
+    text-decoration: none;
+}
+.follower_people_section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.seen_review_request a{
+    text-decoration: none;
+}
+.selected_user_action{
+    display: flex;
+    
+}
+.selected_user_action button{
+    margin-left: 2rem;
+}
+.recent_post_infos{
+    padding-top: .5rem;
+    display: flex;
+}
+.recent_post_gallary{
+    margin-right: .5rem;
+    width: 30%;
+}
+.recent_post_header{
+    width: 100%;
+}
+.recent_post_title{
+    margin-top: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--anastomosys_musted);
+}
+.recent_post_title button{
+    color: white;
+    font-weight: 500;
+}
+.recent_post_title p{
+    padding-left: .5rem;
+    color: white;
+    font-weight: 500;
+}
+.selection_user_follower_action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

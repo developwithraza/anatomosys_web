@@ -1,0 +1,359 @@
+.research_section{
+    margin-top: 1rem;
+}
+.research_section .card{
+    width: 100%;
+}
+.research_heading{
+    background-color:var(--anastomosys_primary);
+    margin-top: 1.5rem;
+    justify-content: start;
+    align-items: center;
+    width: 80%;
+    clip-path: polygon(100% 0, 98% 49%, 98% 50%, 100% 100%, 0 100%, 0 20%, 0 0);
+    
+}
+.research_heading h2{
+    font-size: 1.2rem;
+    color: white;
+    padding: .5rem 2rem;
+}
+.research_user_info{
+    width: 100%;
+    position: relative;
+}
+.research_user_cover{
+    margin-top: 1rem;
+    height: 30vh;
+    position: relative !important;
+
+
+}
+.review_request_details_title{
+    display: flex;
+    align-items: center;
+}
+
+.research_user_cover img{
+    width: 100%;
+    height: 100%;
+}
+.research_user_profile_img{
+    position: absolute;
+    top:12rem;
+    left: 40%;
+}
+.research_user_profile_img img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    border: 1px solid var(--anastomosys_musted);
+    background-color: white;
+
+}
+.reserch_user_data{
+    margin-top: 5rem;
+}
+.reserch_user_data{
+    text-align: center;
+}
+.papers{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.filter_research{
+    display: flex;
+    padding: 0 1rem;
+}
+.filter_research button{
+    background-color: rgba(82, 211, 250, 0.233);
+    color: var(--anastomosys_primary);
+    padding: .2rem 2rem;
+    border-color: var(--anastomosys_primary);
+    
+}
+.filter_research p{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.research_user_divider{
+    margin-top: .5rem;
+}
+.research_user_divider{
+    background-color: rgb(243, 241, 241);
+}
+.research_user_item{
+    padding: 1rem;
+}
+.research_item .card{
+    border-color: var(--anastomosys_musted);
+    background-color: rgba(250, 246, 246, 0.322);
+
+    margin-top: 1rem;
+}
+
+.research_review{
+    background-color: rgb(239, 247, 250);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1rem;
+    height: 2.5rem;
+}
+.research_review p{
+    margin-bottom: 0;
+}
+.send_review{
+    font-weight: 600;
+    color: var(--anastomosys_musted);
+}
+.view_detail{
+    font-weight: 600;
+
+    color: var(--anastomosys_primary);
+}
+.reserch_user_data h2{
+    font-size: 1.2rem;
+    color: var(--anastomosys_primary);
+    margin-top: -1rem;
+}
+
+.total_paper{
+    color: var(--anastomosys_musted);
+}
+.public_paper{
+    color: var(--anastomosys_primary);
+}
+.request_send_to_review{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .5rem ;
+}
+.review_request_send_list{
+    display: flex;
+}
+.user_request_send_info{
+    padding-left: .5rem;
+}
+.user_request_send_info p:first-child{
+    color: var(--anastomosys_primary);
+    font-weight: 600;
+}
+
+.review_request_send_img img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border:  1px solid var(--anastomosys_musted);
+}
+.request_send_action{
+    display: flex;
+   width: 100%;
+   flex-direction: column;
+   background: #eeee;
+    padding: 0.5rem 0;
+    border-radius: 10px;
+}
+.qoute_data{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.qoute_data p{
+    color: var(--anastomosys_musted);
+}
+.qoute_action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+.research_search .ant-input{
+    width: 100%;
+   
+}
+.research_search{
+    width: 40%;
+}
+.show_qoutes_btn{
+    padding: 1rem ;
+    text-align: center;
+}
+.request_send_to_review button{
+    margin-right: .2rem;
+}
+.qoute_info{
+    text-align: center;
+}
+.qoute_info p{
+    color: var(--anastomosys_primary);
+    font-weight: 500;
+}
+.qoute_action button{
+    margin: 2px;
+    color: var(--anastomosys_musted);
+    border-color: var(--anastomosys_musted);
+}
+.qoute_action button:first-child{
+    color: var(--anastomosys_primary);
+    border-color: var(--anastomosys_primary);
+}
+.research_card_title {
+    display: flex;
+    justify-content: space-between;
+}
+.research_card_title{
+    background-color: var(--anastomosys_primary);
+    padding: .5rem;
+    border-radius: 4px 4px 0 0;
+}
+.my_reserch_publish{
+    padding: 1rem;
+}
+.research_action{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.research_action p{
+    margin-right: .5rem;
+}
+.review_request_title{
+    margin-bottom: 1rem;
+}
+.view_alls{
+    display: flex;
+    justify-content: end;
+}
+.view_alls button{
+    color: black;
+    font-weight: 500;
+}
+.add_my_research_title{
+    margin-top: 1rem;
+    background-color: var(--anastomosys_musted);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.add_my_research_title p{
+    color: white;
+    padding: .2rem 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.research_search .ant-select-single{
+    width: 100%;
+}
+#paper_publish{
+    color: whitesmoke;
+    cursor: not-allowed;
+    
+}
+.publish_docs a{
+    text-decoration: none;
+}
+#review_request_payment{
+    color: white;
+}
+.add_my_publication{
+    margin-top: .5rem ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.add_my_publication_btn button{
+    background-color: var(--anastomosys_primary);
+}
+.add_my_publication_btn{
+    padding-right: 1rem;
+}
+.my_research_heading{
+    padding: .5rem;
+}
+.my_research_heading p{
+    color: white;
+    font-weight: 600;
+}
+.my_research_heading{
+    background-color:var(--anastomosys_primary);
+    justify-content: start;
+    align-items: center;
+    width: 70%;
+    clip-path: polygon(100% 0, 98% 49%, 98% 50%, 100% 100%, 0 100%, 0 20%, 0 0);
+    
+}
+.add_my_resheachs .card{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.add_my_resheachs #add_myResearch{
+    padding: 1rem;
+}
+#add_myResearch .row {
+    margin-right: calc(0 * var(--bs-gutter-x));
+}
+#add_myResearch .ck.ck-editor__main>.ck-editor__editable {
+    border-color: var(--ck-color-base-border);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    background-color: #eee;
+    min-height: 8rem;
+}
+.research_public_icons{
+    margin-right: .5rem;
+}
+
+.card_titles{
+    display: flex;
+    justify-content: space-between;
+}
+.add_my_research_titles{
+    display: flex;
+    align-items: center;
+}
+.add_my_research_titles p{
+    color: var(--anastomosys_primary);
+    font-weight: 600;
+    margin-left: .5rem ;
+}
+.gallary_Upload{
+    display: flex;
+    justify-content: center;
+}
+
+  .gallary_Image,
+  .gallary_Vedio {
+  }
+  .gallaryImage input,
+  .gallary_Vedio input {
+    display: none;
+  }
+  .gallary_Images input {
+    display: none;
+  }
+  ._publication_image_review img{
+    width: 50%;
+  }
+  .gallaryImage {
+    width: 16rem;
+    height: 12rem;
+    border-radius: 10px;
+    background: #eeee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.gallary_Vedio {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+  .gallaryImage img{width: 100%;}
